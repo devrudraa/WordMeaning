@@ -1,0 +1,20 @@
+{
+  "name": "wordmeaning",
+  "version": "1.0.0",
+  "description": "A Dictonary For Searching the meaning using dictonary API",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "tailwind": "tailwindcss -i ./dist/css/input.css -o ./dist/css/main.css --watch"
+  },
+  "author": "Dev Rudra",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "express": "^4.18.2",
+    "google-dictionary-api": "^1.0.8"
+  }
+}

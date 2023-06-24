@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .chip {
+    @apply border-l-4 border-slate-950 py-3 px-2 font-semibold bg-slate-600 capitalize;
+  }
+  .button {
+    @apply p-2 bg-slate-700 rounded-md cursor-pointer hover:bg-slate-600;
+  }
+  .chip-wrapper {
+    @apply text-slate-200 space-y-4 hover:text-white;
+  }
+  .error-wrap {
+    @apply p-3 text-red-500 bg-slate-700 border-l-4 border-red-500 capitalize;
+  }
+}
