@@ -8,7 +8,7 @@ and using a api to fetch the data or the meaning of the word.
 Run the command to clone this web app
 
 ```
-git clone url
+git clone https://github.com/devrudraa/WordMeaning
 ```
 
 Use the package manager NPM or Yarn to install all the dependencies of this project
